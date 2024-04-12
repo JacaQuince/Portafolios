@@ -1,0 +1,1628 @@
+Main/Designer:
+
+    partial class PantallaMain
+    {
+        /// <summary>
+        /// Variable del diseñador necesaria.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Limpiar los recursos que se estén usando.
+        /// </summary>
+        /// <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Código generado por el Diseñador de Windows Forms
+
+        /// <summary>
+        /// Método necesario para admitir el Diseñador. No se puede modificar
+        /// el contenido de este método con el editor de código.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PantallaMain));
+            this.PnlArriba = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.BtnCrearTabla = new System.Windows.Forms.Button();
+            this.BtnEjecutar = new System.Windows.Forms.Button();
+            this.PicLogo = new System.Windows.Forms.PictureBox();
+            this.OpDeVentanas = new System.Windows.Forms.Panel();
+            this.PicSalir = new System.Windows.Forms.PictureBox();
+            this.PicMinimizar = new System.Windows.Forms.PictureBox();
+            this.SplitMain = new System.Windows.Forms.SplitContainer();
+            this.SplitTreeView = new System.Windows.Forms.SplitContainer();
+            this.ConexionYDB = new System.Windows.Forms.SplitContainer();
+            this.BtnConectar = new System.Windows.Forms.Button();
+            this.TbServidor = new System.Windows.Forms.TextBox();
+            this.TbPasword = new System.Windows.Forms.TextBox();
+            this.TbUsuario = new System.Windows.Forms.TextBox();
+            this.TvServidores = new System.Windows.Forms.TreeView();
+            this.TvTblas = new System.Windows.Forms.TreeView();
+            this.ScrollCaract = new DevExpress.XtraEditors.XtraScrollableControl();
+            this.DgbRasultados = new System.Windows.Forms.DataGridView();
+            this.TbConsola = new System.Windows.Forms.TextBox();
+            this.PnlArriba.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PicLogo)).BeginInit();
+            this.OpDeVentanas.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PicSalir)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicMinimizar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SplitMain)).BeginInit();
+            this.SplitMain.Panel1.SuspendLayout();
+            this.SplitMain.Panel2.SuspendLayout();
+            this.SplitMain.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SplitTreeView)).BeginInit();
+            this.SplitTreeView.Panel1.SuspendLayout();
+            this.SplitTreeView.Panel2.SuspendLayout();
+            this.SplitTreeView.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ConexionYDB)).BeginInit();
+            this.ConexionYDB.Panel1.SuspendLayout();
+            this.ConexionYDB.Panel2.SuspendLayout();
+            this.ConexionYDB.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DgbRasultados)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // PnlArriba
+            // 
+            this.PnlArriba.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(57)))), ((int)(((byte)(106)))));
+            this.PnlArriba.Controls.Add(this.panel1);
+            this.PnlArriba.Controls.Add(this.PicLogo);
+            this.PnlArriba.Controls.Add(this.OpDeVentanas);
+            this.PnlArriba.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PnlArriba.Location = new System.Drawing.Point(0, 0);
+            this.PnlArriba.Name = "PnlArriba";
+            this.PnlArriba.Size = new System.Drawing.Size(902, 86);
+            this.PnlArriba.TabIndex = 2;
+            this.PnlArriba.MouseMove += new System.Windows.Forms.MouseEventHandler(this.PnlArriba_MouseMove);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.BtnCrearTabla);
+            this.panel1.Controls.Add(this.BtnEjecutar);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel1.Location = new System.Drawing.Point(0, 39);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(902, 47);
+            this.panel1.TabIndex = 0;
+            // 
+            // BtnCrearTabla
+            // 
+            this.BtnCrearTabla.Enabled = false;
+            this.BtnCrearTabla.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCrearTabla.Location = new System.Drawing.Point(378, 7);
+            this.BtnCrearTabla.Name = "BtnCrearTabla";
+            this.BtnCrearTabla.Size = new System.Drawing.Size(120, 35);
+            this.BtnCrearTabla.TabIndex = 9;
+            this.BtnCrearTabla.Text = "Crear tabla";
+            this.BtnCrearTabla.UseVisualStyleBackColor = true;
+            this.BtnCrearTabla.Click += new System.EventHandler(this.BtnCrearTabla_Click);
+            // 
+            // BtnEjecutar
+            // 
+            this.BtnEjecutar.Enabled = false;
+            this.BtnEjecutar.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEjecutar.Location = new System.Drawing.Point(231, 7);
+            this.BtnEjecutar.Name = "BtnEjecutar";
+            this.BtnEjecutar.Size = new System.Drawing.Size(90, 35);
+            this.BtnEjecutar.TabIndex = 8;
+            this.BtnEjecutar.Text = "Ejecutar";
+            this.BtnEjecutar.UseVisualStyleBackColor = true;
+            this.BtnEjecutar.Click += new System.EventHandler(this.BtnEjecutar_Click);
+            // 
+            // PicLogo
+            // 
+            this.PicLogo.Image = ((System.Drawing.Image)(resources.GetObject("PicLogo.Image")));
+            this.PicLogo.Location = new System.Drawing.Point(-1, 0);
+            this.PicLogo.Name = "PicLogo";
+            this.PicLogo.Size = new System.Drawing.Size(81, 42);
+            this.PicLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PicLogo.TabIndex = 0;
+            this.PicLogo.TabStop = false;
+            this.PicLogo.MouseMove += new System.Windows.Forms.MouseEventHandler(this.PnlArriba_MouseMove);
+            // 
+            // OpDeVentanas
+            // 
+            this.OpDeVentanas.Controls.Add(this.PicSalir);
+            this.OpDeVentanas.Controls.Add(this.PicMinimizar);
+            this.OpDeVentanas.Location = new System.Drawing.Point(800, 0);
+            this.OpDeVentanas.Name = "OpDeVentanas";
+            this.OpDeVentanas.Size = new System.Drawing.Size(102, 42);
+            this.OpDeVentanas.TabIndex = 9;
+            this.OpDeVentanas.MouseMove += new System.Windows.Forms.MouseEventHandler(this.PnlArriba_MouseMove);
+            // 
+            // PicSalir
+            // 
+            this.PicSalir.Image = ((System.Drawing.Image)(resources.GetObject("PicSalir.Image")));
+            this.PicSalir.Location = new System.Drawing.Point(58, 0);
+            this.PicSalir.Name = "PicSalir";
+            this.PicSalir.Size = new System.Drawing.Size(43, 38);
+            this.PicSalir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PicSalir.TabIndex = 1;
+            this.PicSalir.TabStop = false;
+            this.PicSalir.Click += new System.EventHandler(this.PicSalir_Click);
+            // 
+            // PicMinimizar
+            // 
+            this.PicMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("PicMinimizar.Image")));
+            this.PicMinimizar.Location = new System.Drawing.Point(0, 7);
+            this.PicMinimizar.Name = "PicMinimizar";
+            this.PicMinimizar.Size = new System.Drawing.Size(52, 26);
+            this.PicMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PicMinimizar.TabIndex = 2;
+            this.PicMinimizar.TabStop = false;
+            this.PicMinimizar.Click += new System.EventHandler(this.PicMinimizar_Click);
+            // 
+            // SplitMain
+            // 
+            this.SplitMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SplitMain.Location = new System.Drawing.Point(0, 86);
+            this.SplitMain.Name = "SplitMain";
+            // 
+            // SplitMain.Panel1
+            // 
+            this.SplitMain.Panel1.Controls.Add(this.SplitTreeView);
+            // 
+            // SplitMain.Panel2
+            // 
+            this.SplitMain.Panel2.BackColor = System.Drawing.SystemColors.Control;
+            this.SplitMain.Panel2.Controls.Add(this.DgbRasultados);
+            this.SplitMain.Panel2.Controls.Add(this.TbConsola);
+            this.SplitMain.Size = new System.Drawing.Size(902, 467);
+            this.SplitMain.SplitterDistance = 223;
+            this.SplitMain.TabIndex = 3;
+            this.SplitMain.TabStop = false;
+            // 
+            // SplitTreeView
+            // 
+            this.SplitTreeView.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SplitTreeView.Location = new System.Drawing.Point(0, 0);
+            this.SplitTreeView.Name = "SplitTreeView";
+            this.SplitTreeView.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // SplitTreeView.Panel1
+            // 
+            this.SplitTreeView.Panel1.BackColor = System.Drawing.SystemColors.Control;
+            this.SplitTreeView.Panel1.Controls.Add(this.ConexionYDB);
+            // 
+            // SplitTreeView.Panel2
+            // 
+            this.SplitTreeView.Panel2.Controls.Add(this.TvTblas);
+            this.SplitTreeView.Panel2.Controls.Add(this.ScrollCaract);
+            this.SplitTreeView.Size = new System.Drawing.Size(223, 467);
+            this.SplitTreeView.SplitterDistance = 283;
+            this.SplitTreeView.TabIndex = 1;
+            // 
+            // ConexionYDB
+            // 
+            this.ConexionYDB.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ConexionYDB.Location = new System.Drawing.Point(0, 0);
+            this.ConexionYDB.Name = "ConexionYDB";
+            this.ConexionYDB.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // ConexionYDB.Panel1
+            // 
+            this.ConexionYDB.Panel1.BackColor = System.Drawing.Color.White;
+            this.ConexionYDB.Panel1.Controls.Add(this.BtnConectar);
+            this.ConexionYDB.Panel1.Controls.Add(this.TbServidor);
+            this.ConexionYDB.Panel1.Controls.Add(this.TbPasword);
+            this.ConexionYDB.Panel1.Controls.Add(this.TbUsuario);
+            // 
+            // ConexionYDB.Panel2
+            // 
+            this.ConexionYDB.Panel2.Controls.Add(this.TvServidores);
+            this.ConexionYDB.Size = new System.Drawing.Size(223, 283);
+            this.ConexionYDB.SplitterDistance = 141;
+            this.ConexionYDB.TabIndex = 6;
+            // 
+            // BtnConectar
+            // 
+            this.BtnConectar.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnConectar.Location = new System.Drawing.Point(45, 91);
+            this.BtnConectar.Name = "BtnConectar";
+            this.BtnConectar.Size = new System.Drawing.Size(128, 35);
+            this.BtnConectar.TabIndex = 4;
+            this.BtnConectar.Text = "Conectarse";
+            this.BtnConectar.UseVisualStyleBackColor = true;
+            this.BtnConectar.Click += new System.EventHandler(this.BtnConectar_Click);
+            // 
+            // TbServidor
+            // 
+            this.TbServidor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TbServidor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TbServidor.Location = new System.Drawing.Point(29, 13);
+            this.TbServidor.Name = "TbServidor";
+            this.TbServidor.Size = new System.Drawing.Size(159, 22);
+            this.TbServidor.TabIndex = 1;
+            this.TbServidor.Tag = "Server";
+            this.TbServidor.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TbServidor.MouseClick += new System.Windows.Forms.MouseEventHandler(this.TbServidor_MouseClick);
+            this.TbServidor.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.TbServidor_MouseDoubleClick);
+            this.TbServidor.MouseEnter += new System.EventHandler(this.TbServidor_MouseEnter);
+            this.TbServidor.MouseLeave += new System.EventHandler(this.TbServidor_MouseLeave);
+            // 
+            // TbPasword
+            // 
+            this.TbPasword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TbPasword.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TbPasword.Location = new System.Drawing.Point(31, 65);
+            this.TbPasword.Name = "TbPasword";
+            this.TbPasword.Size = new System.Drawing.Size(157, 22);
+            this.TbPasword.TabIndex = 3;
+            this.TbPasword.Tag = "Password";
+            this.TbPasword.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TbPasword.UseSystemPasswordChar = true;
+            this.TbPasword.MouseClick += new System.Windows.Forms.MouseEventHandler(this.TbServidor_MouseClick);
+            this.TbPasword.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.TbServidor_MouseDoubleClick);
+            this.TbPasword.MouseEnter += new System.EventHandler(this.TbServidor_MouseEnter);
+            this.TbPasword.MouseLeave += new System.EventHandler(this.TbServidor_MouseLeave);
+            // 
+            // TbUsuario
+            // 
+            this.TbUsuario.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TbUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TbUsuario.Location = new System.Drawing.Point(29, 39);
+            this.TbUsuario.Name = "TbUsuario";
+            this.TbUsuario.Size = new System.Drawing.Size(159, 22);
+            this.TbUsuario.TabIndex = 2;
+            this.TbUsuario.Tag = "Usser";
+            this.TbUsuario.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TbUsuario.MouseClick += new System.Windows.Forms.MouseEventHandler(this.TbServidor_MouseClick);
+            this.TbUsuario.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.TbServidor_MouseDoubleClick);
+            this.TbUsuario.MouseEnter += new System.EventHandler(this.TbServidor_MouseEnter);
+            this.TbUsuario.MouseLeave += new System.EventHandler(this.TbServidor_MouseLeave);
+            // 
+            // TvServidores
+            // 
+            this.TvServidores.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.TvServidores.Location = new System.Drawing.Point(0, 0);
+            this.TvServidores.Name = "TvServidores";
+            this.TvServidores.Size = new System.Drawing.Size(223, 138);
+            this.TvServidores.TabIndex = 5;
+            this.TvServidores.NodeMouseDoubleClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.TvServidores_NodeMouseDoubleClick);
+            // 
+            // TvTblas
+            // 
+            this.TvTblas.Location = new System.Drawing.Point(-1, 2);
+            this.TvTblas.Name = "TvTblas";
+            this.TvTblas.Size = new System.Drawing.Size(224, 176);
+            this.TvTblas.TabIndex = 6;
+            // 
+            // ScrollCaract
+            // 
+            this.ScrollCaract.Appearance.BackColor = System.Drawing.SystemColors.Control;
+            this.ScrollCaract.Appearance.Options.UseBackColor = true;
+            this.ScrollCaract.Location = new System.Drawing.Point(99, 14);
+            this.ScrollCaract.Name = "ScrollCaract";
+            this.ScrollCaract.Size = new System.Drawing.Size(223, 118);
+            this.ScrollCaract.TabIndex = 5;
+            // 
+            // DgbRasultados
+            // 
+            this.DgbRasultados.AllowUserToAddRows = false;
+            this.DgbRasultados.AllowUserToDeleteRows = false;
+            this.DgbRasultados.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.DgbRasultados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DgbRasultados.GridColor = System.Drawing.SystemColors.ControlLightLight;
+            this.DgbRasultados.Location = new System.Drawing.Point(3, 270);
+            this.DgbRasultados.Name = "DgbRasultados";
+            this.DgbRasultados.ReadOnly = true;
+            this.DgbRasultados.RowHeadersVisible = false;
+            this.DgbRasultados.Size = new System.Drawing.Size(669, 195);
+            this.DgbRasultados.TabIndex = 8;
+            this.DgbRasultados.TabStop = false;
+            // 
+            // TbConsola
+            // 
+            this.TbConsola.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TbConsola.Enabled = false;
+            this.TbConsola.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TbConsola.Location = new System.Drawing.Point(3, 3);
+            this.TbConsola.Multiline = true;
+            this.TbConsola.Name = "TbConsola";
+            this.TbConsola.Size = new System.Drawing.Size(669, 261);
+            this.TbConsola.TabIndex = 7;
+            this.TbConsola.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TbConsola_KeyPress);
+            // 
+            // PantallaMain
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.AliceBlue;
+            this.ClientSize = new System.Drawing.Size(902, 553);
+            this.Controls.Add(this.SplitMain);
+            this.Controls.Add(this.PnlArriba);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "PantallaMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.PantallaMain_Load);
+            this.PnlArriba.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.PicLogo)).EndInit();
+            this.OpDeVentanas.ResumeLayout(false);
+            this.OpDeVentanas.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PicSalir)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicMinimizar)).EndInit();
+            this.SplitMain.Panel1.ResumeLayout(false);
+            this.SplitMain.Panel2.ResumeLayout(false);
+            this.SplitMain.Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SplitMain)).EndInit();
+            this.SplitMain.ResumeLayout(false);
+            this.SplitTreeView.Panel1.ResumeLayout(false);
+            this.SplitTreeView.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.SplitTreeView)).EndInit();
+            this.SplitTreeView.ResumeLayout(false);
+            this.ConexionYDB.Panel1.ResumeLayout(false);
+            this.ConexionYDB.Panel1.PerformLayout();
+            this.ConexionYDB.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ConexionYDB)).EndInit();
+            this.ConexionYDB.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.DgbRasultados)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel PnlArriba;
+        private System.Windows.Forms.PictureBox PicSalir;
+        private System.Windows.Forms.PictureBox PicLogo;
+        private System.Windows.Forms.PictureBox PicMinimizar;
+        private System.Windows.Forms.Panel OpDeVentanas;
+        private System.Windows.Forms.SplitContainer SplitMain;
+        private System.Windows.Forms.SplitContainer SplitTreeView;
+        private DevExpress.XtraEditors.XtraScrollableControl ScrollCaract;
+        private System.Windows.Forms.Button BtnConectar;
+        private System.Windows.Forms.TextBox TbPasword;
+        private System.Windows.Forms.TextBox TbUsuario;
+        private System.Windows.Forms.TextBox TbServidor;
+        private System.Windows.Forms.TreeView TvServidores;
+        private System.Windows.Forms.TreeView TvTblas;
+        private System.Windows.Forms.TextBox TbConsola;
+        private System.Windows.Forms.SplitContainer ConexionYDB;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button BtnEjecutar;
+        private System.Windows.Forms.Button BtnCrearTabla;
+        private System.Windows.Forms.DataGridView DgbRasultados;
+    }
+
+Main/Codigo:
+
+    public partial class PantallaMain : Form
+    {
+        public PantallaMain()
+        {
+            InitializeComponent();
+        }
+
+        #region
+        //------------------------------------------Esta parte del código se dedica a las acciones de la ventana----------------------------------------------------
+        int mx = 0; int my = 0;
+        private void PnlArriba_MouseMove(object sender, MouseEventArgs e) { if (e.Button != MouseButtons.Left) { mx = e.X; my = e.Y; } else { Left = Left + (e.X - mx); Top = Top + (e.Y - my); } }
+        private void PicSalir_Click(object sender, EventArgs e) { Application.Exit(); }
+        private void PicMinimizar_Click(object sender, EventArgs e) { this.WindowState = FormWindowState.Minimized; }
+
+        //------------------------------------------Esta parte del código hace cosas estéticas----------------------------------------------------
+
+        Boolean clic = false;
+        private void PantallaMain_Load(object sender, EventArgs e)
+        {
+            TbServidor.Text = TbServidor.Tag.ToString(); TbServidor.ForeColor = Color.FromArgb(171, 171, 171);
+            TbUsuario.Text = TbUsuario.Tag.ToString(); TbUsuario.ForeColor = Color.FromArgb(171, 171, 171);
+            TbPasword.Text = TbPasword.Tag.ToString(); TbPasword.ForeColor = Color.FromArgb(171, 171, 171);
+        }        
+
+        private void TbServidor_MouseEnter(object sender, EventArgs e)
+        {
+            TextBox Tb = (TextBox)sender;
+            Tb.ForeColor = Color.Black;
+            if (Tb.Text == Tb.Tag.ToString())
+            {
+                Tb.Clear();
+            }
+        }
+        private void TbServidor_MouseLeave(object sender, EventArgs e)
+        {
+            TextBox Tb = (TextBox)sender;
+            if (Tb.Text.Length <= 0 && clic != true)
+            {
+                Tb.ForeColor = Color.FromArgb(171, 171, 171);
+                Tb.Text = Tb.Tag.ToString();
+            }
+            clic = false;
+        }
+
+        private void TbServidor_MouseClick(object sender, MouseEventArgs e)
+        {
+            clic = true;
+        }
+        private void TbServidor_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            TextBox Tb = (TextBox)sender;
+            if(Tb.Tag.ToString() == "Server")
+            {
+                Tb.Text = "LAPTOP-HKCS2KR0";
+            }
+            else if (Tb.Tag.ToString() == "Usser")
+            {
+                Tb.Text = "sa";
+            }
+            else
+            {
+                Tb.Text = "5555";
+            }
+        }
+
+        #endregion
+
+        DBSqlServer sql = null;
+
+        Thread OpTabla;
+
+        public String sServidor = "";
+        public String sUsuario = "";
+        public String sPassword = "";
+
+        String DB = "";
+
+        Boolean Op = false;
+
+        DataTable T;
+
+        public void AbreTabla()
+        {
+            Op = true;
+            Tablas T = new Tablas(sql);
+            T.ShowDialog();
+            Op = false;
+            OpTabla.Abort();
+            
+        }
+
+        private void BtnConectar_Click(object sender, EventArgs e)
+        {
+            sServidor = TbServidor.Text;
+            sUsuario = TbUsuario.Text;
+            sPassword = TbPasword.Text;
+
+            sql = new DBSqlServer(TbServidor.Text, TbUsuario.Text, TbPasword.Text);
+
+            if (sql.AbrirConexion())
+            {
+                MessageBox.Show("Conexion realizada...");
+                TbConsola.Enabled = true;
+                BtnCrearTabla.Enabled = true;
+                BtnEjecutar.Enabled = true;
+                TvTblas.Nodes.Clear();
+
+                try
+                {
+                    TvServidores.Nodes.Clear();
+                    DataTable Tabla = sql.VerTodasLasDB();
+                    foreach (DataRow r in Tabla.Rows)
+                    {
+                        TvServidores.Nodes.Add(r[0].ToString());
+                    }
+                    sql.CambiarDB("master");
+                    MessageBox.Show($"Base de datos en uso: {sql.VerDB()}");
+                }
+                catch { }
+            }
+            else
+            {
+                MessageBox.Show($"Ha ocurrido un error:\n {sql.sLastError}");
+                sql = null;
+            }
+        }
+
+        private void BtnEjecutar_Click(object sender, EventArgs e)
+        {
+            String sCmd = TbConsola.Text;
+
+            if (!sql.ConexionAbierta())
+            {
+                sql.AbrirConexion();
+            }
+            try
+            {
+                if (sql.Ejecutar(sCmd))
+                {
+                    MessageBox.Show("Ejecutado correctamente...");
+                    DgbRasultados.DataSource = sql.Tabla;
+                }
+                else
+                {
+                    MessageBox.Show($"Ha ocurrido un error:\n {sql.sLastError}");
+                }
+            }
+            catch 
+            {
+                MessageBox.Show($"Ha ocurrido un error:\n {sql.sLastError}");
+            }
+        }
+
+        private void TbConsola_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 27)
+                TbConsola.Clear();
+        }
+
+        private void BtnCrearTabla_Click(object sender, EventArgs e)
+        {
+            if (sql != null && !Op)
+            {
+                OpTabla = new Thread(AbreTabla);
+                OpTabla.Start();
+            }
+        }
+
+        private void TvServidores_NodeMouseDoubleClick(object sender, TreeNodeMouseClickEventArgs e)
+        {
+            
+            try
+            {
+                DB = TvServidores.SelectedNode.Text;
+                TvTblas.Nodes.Clear();
+                String[] Elementos;
+                DataTable Elemento;
+                TreeNode TabActual;
+
+                T = sql.VerTablas(DB);
+                foreach (DataRow dr in T.Rows)
+                {
+                    TvTblas.Nodes.Add(dr[0].ToString());
+
+                    TvTblas.Nodes[TvTblas.Nodes.Count - 1].Nodes.Add("Elementos");
+                    TvTblas.Nodes[TvTblas.Nodes.Count - 1].Nodes.Add("Keys");
+                    TvTblas.Nodes[TvTblas.Nodes.Count - 1].Nodes.Add("Constrains");
+
+                    TabActual = TvTblas.Nodes[TvTblas.Nodes.Count - 1];
+
+                    //------------------------------------------Elementos----------------------------------------------------
+
+                    Elementos = sql.VerElementos(DB, dr[0].ToString());
+                    foreach (String e1 in Elementos)
+                    {
+                        TvTblas.Nodes[TabActual.Index].Nodes[0].Nodes.Add(e1);
+                    }
+
+                    //------------------------------------------Keys----------------------------------------------------
+
+                    Elementos = sql.VerKeys(DB, dr[0].ToString());
+                    foreach (String e2 in Elementos)
+                    {
+                        TvTblas.Nodes[TabActual.Index].Nodes[1].Nodes.Add(e2);
+                    }
+
+                    //------------------------------------------Constrains----------------------------------------------------
+
+                    Elemento = sql.VerConstrains(DB, dr[0].ToString());
+                    foreach (DataRow e3 in Elemento.Rows)
+                    {
+                        TvTblas.Nodes[TabActual.Index].Nodes[2].Nodes.Add(e3[1].ToString());
+                    }
+
+                }
+
+                sql.CambiarDB(DB);
+                MessageBox.Show($"Base de datos en uso: {sql.VerDB()}");
+
+            }
+            catch (Exception ex)
+            {
+                sql.sLastError = ex.Message;
+                MessageBox.Show($"Ha ocurrido un error:\n {sql.sLastError}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+    }
+
+
+Form Tablas/Designer:
+
+    partial class Tablas
+    {
+        /// <summary>
+        /// Variable del diseñador necesaria.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Limpiar los recursos que se estén usando.
+        /// </summary>
+        /// <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Código generado por el Diseñador de Windows Forms
+
+        /// <summary>
+        /// Método necesario para admitir el Diseñador. No se puede modificar
+        /// el contenido de este método con el editor de código.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tablas));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.PnlArriba = new System.Windows.Forms.Panel();
+            this.PicLogo = new System.Windows.Forms.PictureBox();
+            this.OpDeVentanas = new System.Windows.Forms.Panel();
+            this.PicSalir = new System.Windows.Forms.PictureBox();
+            this.PnlInstrucciones = new System.Windows.Forms.Panel();
+            this.BtnVerTabla = new System.Windows.Forms.Button();
+            this.CbBdd = new System.Windows.Forms.ComboBox();
+            this.CkbPrimaryKey = new System.Windows.Forms.CheckBox();
+            this.BtnAgregar = new System.Windows.Forms.Button();
+            this.CkbAutoIncrementable = new System.Windows.Forms.CheckBox();
+            this.CkbNullos = new System.Windows.Forms.CheckBox();
+            this.TbNombreDato = new System.Windows.Forms.TextBox();
+            this.CbTipoDato = new System.Windows.Forms.ComboBox();
+            this.LblBdd = new System.Windows.Forms.Label();
+            this.TbNombreTabla = new System.Windows.Forms.TextBox();
+            this.LblNombre = new System.Windows.Forms.Label();
+            this.BtnCrear = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.DGBTabla = new System.Windows.Forms.DataGridView();
+            this.C1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.C2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.C3 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.C4 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.C5 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.PnlArriba.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PicLogo)).BeginInit();
+            this.OpDeVentanas.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PicSalir)).BeginInit();
+            this.PnlInstrucciones.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DGBTabla)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // PnlArriba
+            // 
+            this.PnlArriba.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(57)))), ((int)(((byte)(106)))));
+            this.PnlArriba.Controls.Add(this.PicLogo);
+            this.PnlArriba.Controls.Add(this.OpDeVentanas);
+            this.PnlArriba.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PnlArriba.Location = new System.Drawing.Point(0, 0);
+            this.PnlArriba.Name = "PnlArriba";
+            this.PnlArriba.Size = new System.Drawing.Size(902, 42);
+            this.PnlArriba.TabIndex = 3;
+            this.PnlArriba.MouseMove += new System.Windows.Forms.MouseEventHandler(this.PnlArriba_MouseMove);
+            // 
+            // PicLogo
+            // 
+            this.PicLogo.Image = ((System.Drawing.Image)(resources.GetObject("PicLogo.Image")));
+            this.PicLogo.Location = new System.Drawing.Point(-1, 0);
+            this.PicLogo.Name = "PicLogo";
+            this.PicLogo.Size = new System.Drawing.Size(81, 42);
+            this.PicLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PicLogo.TabIndex = 0;
+            this.PicLogo.TabStop = false;
+            this.PicLogo.MouseMove += new System.Windows.Forms.MouseEventHandler(this.PnlArriba_MouseMove);
+            // 
+            // OpDeVentanas
+            // 
+            this.OpDeVentanas.Controls.Add(this.PicSalir);
+            this.OpDeVentanas.Dock = System.Windows.Forms.DockStyle.Right;
+            this.OpDeVentanas.Location = new System.Drawing.Point(800, 0);
+            this.OpDeVentanas.Name = "OpDeVentanas";
+            this.OpDeVentanas.Size = new System.Drawing.Size(102, 42);
+            this.OpDeVentanas.TabIndex = 9;
+            // 
+            // PicSalir
+            // 
+            this.PicSalir.Image = ((System.Drawing.Image)(resources.GetObject("PicSalir.Image")));
+            this.PicSalir.Location = new System.Drawing.Point(58, 0);
+            this.PicSalir.Name = "PicSalir";
+            this.PicSalir.Size = new System.Drawing.Size(43, 38);
+            this.PicSalir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PicSalir.TabIndex = 1;
+            this.PicSalir.TabStop = false;
+            this.PicSalir.Click += new System.EventHandler(this.PicSalir_Click);
+            // 
+            // PnlInstrucciones
+            // 
+            this.PnlInstrucciones.Controls.Add(this.BtnVerTabla);
+            this.PnlInstrucciones.Controls.Add(this.CbBdd);
+            this.PnlInstrucciones.Controls.Add(this.CkbPrimaryKey);
+            this.PnlInstrucciones.Controls.Add(this.BtnAgregar);
+            this.PnlInstrucciones.Controls.Add(this.CkbAutoIncrementable);
+            this.PnlInstrucciones.Controls.Add(this.CkbNullos);
+            this.PnlInstrucciones.Controls.Add(this.TbNombreDato);
+            this.PnlInstrucciones.Controls.Add(this.CbTipoDato);
+            this.PnlInstrucciones.Controls.Add(this.LblBdd);
+            this.PnlInstrucciones.Controls.Add(this.TbNombreTabla);
+            this.PnlInstrucciones.Controls.Add(this.LblNombre);
+            this.PnlInstrucciones.Controls.Add(this.BtnCrear);
+            this.PnlInstrucciones.Controls.Add(this.label1);
+            this.PnlInstrucciones.Controls.Add(this.label2);
+            this.PnlInstrucciones.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PnlInstrucciones.ForeColor = System.Drawing.Color.DimGray;
+            this.PnlInstrucciones.Location = new System.Drawing.Point(0, 42);
+            this.PnlInstrucciones.Name = "PnlInstrucciones";
+            this.PnlInstrucciones.Size = new System.Drawing.Size(902, 123);
+            this.PnlInstrucciones.TabIndex = 4;
+            // 
+            // BtnVerTabla
+            // 
+            this.BtnVerTabla.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.BtnVerTabla.ForeColor = System.Drawing.Color.Black;
+            this.BtnVerTabla.Location = new System.Drawing.Point(573, 29);
+            this.BtnVerTabla.Name = "BtnVerTabla";
+            this.BtnVerTabla.Size = new System.Drawing.Size(83, 23);
+            this.BtnVerTabla.TabIndex = 17;
+            this.BtnVerTabla.Text = "Ver tabla";
+            this.BtnVerTabla.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.BtnVerTabla.UseVisualStyleBackColor = true;
+            // 
+            // CbBdd
+            // 
+            this.CbBdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.CbBdd.ForeColor = System.Drawing.Color.Black;
+            this.CbBdd.FormattingEnabled = true;
+            this.CbBdd.Location = new System.Drawing.Point(7, 28);
+            this.CbBdd.Name = "CbBdd";
+            this.CbBdd.Size = new System.Drawing.Size(177, 24);
+            this.CbBdd.TabIndex = 16;
+            this.CbBdd.Text = "Base de datos en uso";
+            this.CbBdd.SelectedIndexChanged += new System.EventHandler(this.CbBdd_SelectedIndexChanged);
+            // 
+            // CkbPrimaryKey
+            // 
+            this.CkbPrimaryKey.AutoSize = true;
+            this.CkbPrimaryKey.Enabled = false;
+            this.CkbPrimaryKey.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CkbPrimaryKey.ForeColor = System.Drawing.Color.Black;
+            this.CkbPrimaryKey.Location = new System.Drawing.Point(652, 68);
+            this.CkbPrimaryKey.Name = "CkbPrimaryKey";
+            this.CkbPrimaryKey.Size = new System.Drawing.Size(110, 20);
+            this.CkbPrimaryKey.TabIndex = 15;
+            this.CkbPrimaryKey.Text = "Primary Key";
+            this.CkbPrimaryKey.UseVisualStyleBackColor = true;
+            // 
+            // BtnAgregar
+            // 
+            this.BtnAgregar.Enabled = false;
+            this.BtnAgregar.Font = new System.Drawing.Font("Microsoft YaHei UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnAgregar.ForeColor = System.Drawing.Color.Black;
+            this.BtnAgregar.Location = new System.Drawing.Point(768, 58);
+            this.BtnAgregar.Name = "BtnAgregar";
+            this.BtnAgregar.Size = new System.Drawing.Size(122, 62);
+            this.BtnAgregar.TabIndex = 14;
+            this.BtnAgregar.Text = "Agregar a la tabla";
+            this.BtnAgregar.UseVisualStyleBackColor = true;
+            this.BtnAgregar.Click += new System.EventHandler(this.BtnAgregar_Click);
+            // 
+            // CkbAutoIncrementable
+            // 
+            this.CkbAutoIncrementable.AutoSize = true;
+            this.CkbAutoIncrementable.Enabled = false;
+            this.CkbAutoIncrementable.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CkbAutoIncrementable.ForeColor = System.Drawing.Color.Black;
+            this.CkbAutoIncrementable.Location = new System.Drawing.Point(461, 69);
+            this.CkbAutoIncrementable.Name = "CkbAutoIncrementable";
+            this.CkbAutoIncrementable.Size = new System.Drawing.Size(177, 20);
+            this.CkbAutoIncrementable.TabIndex = 9;
+            this.CkbAutoIncrementable.Text = "Es autoincrementable";
+            this.CkbAutoIncrementable.UseVisualStyleBackColor = true;
+            // 
+            // CkbNullos
+            // 
+            this.CkbNullos.AutoSize = true;
+            this.CkbNullos.Enabled = false;
+            this.CkbNullos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CkbNullos.ForeColor = System.Drawing.Color.Black;
+            this.CkbNullos.Location = new System.Drawing.Point(326, 68);
+            this.CkbNullos.Name = "CkbNullos";
+            this.CkbNullos.Size = new System.Drawing.Size(117, 20);
+            this.CkbNullos.TabIndex = 8;
+            this.CkbNullos.Text = "Acepta nulos";
+            this.CkbNullos.UseVisualStyleBackColor = true;
+            // 
+            // TbNombreDato
+            // 
+            this.TbNombreDato.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TbNombreDato.Enabled = false;
+            this.TbNombreDato.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TbNombreDato.ForeColor = System.Drawing.Color.Black;
+            this.TbNombreDato.Location = new System.Drawing.Point(7, 90);
+            this.TbNombreDato.Name = "TbNombreDato";
+            this.TbNombreDato.Size = new System.Drawing.Size(177, 23);
+            this.TbNombreDato.TabIndex = 5;
+            this.TbNombreDato.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // CbTipoDato
+            // 
+            this.CbTipoDato.Enabled = false;
+            this.CbTipoDato.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.CbTipoDato.ForeColor = System.Drawing.Color.Black;
+            this.CbTipoDato.FormattingEnabled = true;
+            this.CbTipoDato.Location = new System.Drawing.Point(197, 89);
+            this.CbTipoDato.Name = "CbTipoDato";
+            this.CbTipoDato.Size = new System.Drawing.Size(116, 24);
+            this.CbTipoDato.TabIndex = 3;
+            this.CbTipoDato.Text = "Tipo de dato";
+            // 
+            // LblBdd
+            // 
+            this.LblBdd.AutoSize = true;
+            this.LblBdd.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblBdd.ForeColor = System.Drawing.Color.DarkGray;
+            this.LblBdd.Location = new System.Drawing.Point(3, 3);
+            this.LblBdd.Name = "LblBdd";
+            this.LblBdd.Size = new System.Drawing.Size(181, 22);
+            this.LblBdd.TabIndex = 3;
+            this.LblBdd.Text = "Base de datos en uso";
+            // 
+            // TbNombreTabla
+            // 
+            this.TbNombreTabla.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TbNombreTabla.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TbNombreTabla.Location = new System.Drawing.Point(344, 29);
+            this.TbNombreTabla.Name = "TbNombreTabla";
+            this.TbNombreTabla.Size = new System.Drawing.Size(223, 23);
+            this.TbNombreTabla.TabIndex = 2;
+            this.TbNombreTabla.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TbNombreTabla.MouseClick += new System.Windows.Forms.MouseEventHandler(this.TbNombreTabla_MouseClick);
+            // 
+            // LblNombre
+            // 
+            this.LblNombre.AutoSize = true;
+            this.LblNombre.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblNombre.ForeColor = System.Drawing.Color.Gray;
+            this.LblNombre.Location = new System.Drawing.Point(372, 3);
+            this.LblNombre.Name = "LblNombre";
+            this.LblNombre.Size = new System.Drawing.Size(168, 22);
+            this.LblNombre.TabIndex = 1;
+            this.LblNombre.Text = "Nombre de la tabla";
+            // 
+            // BtnCrear
+            // 
+            this.BtnCrear.Enabled = false;
+            this.BtnCrear.Font = new System.Drawing.Font("Microsoft YaHei UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCrear.ForeColor = System.Drawing.Color.Black;
+            this.BtnCrear.Location = new System.Drawing.Point(768, 6);
+            this.BtnCrear.Name = "BtnCrear";
+            this.BtnCrear.Size = new System.Drawing.Size(122, 46);
+            this.BtnCrear.TabIndex = 0;
+            this.BtnCrear.Text = "Generar";
+            this.BtnCrear.UseVisualStyleBackColor = true;
+            this.BtnCrear.Click += new System.EventHandler(this.BtnCrear_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(21, 69);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(151, 22);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Nombre del dato";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(193, 69);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(120, 22);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Típo del dato";
+            // 
+            // DGBTabla
+            // 
+            this.DGBTabla.AllowUserToAddRows = false;
+            this.DGBTabla.AllowUserToDeleteRows = false;
+            this.DGBTabla.AllowUserToResizeColumns = false;
+            this.DGBTabla.AllowUserToResizeRows = false;
+            this.DGBTabla.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.DGBTabla.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.DGBTabla.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DGBTabla.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.C1,
+            this.C2,
+            this.C3,
+            this.C4,
+            this.C5});
+            this.DGBTabla.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.DGBTabla.GridColor = System.Drawing.SystemColors.ControlLight;
+            this.DGBTabla.Location = new System.Drawing.Point(0, 165);
+            this.DGBTabla.Name = "DGBTabla";
+            this.DGBTabla.ReadOnly = true;
+            this.DGBTabla.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.DGBTabla.RowHeadersVisible = false;
+            this.DGBTabla.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.DGBTabla.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
+            this.DGBTabla.Size = new System.Drawing.Size(902, 342);
+            this.DGBTabla.TabIndex = 5;
+            // 
+            // C1
+            // 
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.C1.DefaultCellStyle = dataGridViewCellStyle2;
+            this.C1.HeaderText = "Campo";
+            this.C1.Name = "C1";
+            this.C1.ReadOnly = true;
+            // 
+            // C2
+            // 
+            this.C2.HeaderText = "Tipo de dato";
+            this.C2.Name = "C2";
+            this.C2.ReadOnly = true;
+            // 
+            // C3
+            // 
+            this.C3.HeaderText = "Nulos";
+            this.C3.Name = "C3";
+            this.C3.ReadOnly = true;
+            // 
+            // C4
+            // 
+            this.C4.HeaderText = "Identity";
+            this.C4.Name = "C4";
+            this.C4.ReadOnly = true;
+            // 
+            // C5
+            // 
+            this.C5.HeaderText = "Primary Key";
+            this.C5.Name = "C5";
+            this.C5.ReadOnly = true;
+            // 
+            // Tablas
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(902, 507);
+            this.Controls.Add(this.DGBTabla);
+            this.Controls.Add(this.PnlInstrucciones);
+            this.Controls.Add(this.PnlArriba);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "Tablas";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.Tablas_Load);
+            this.PnlArriba.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.PicLogo)).EndInit();
+            this.OpDeVentanas.ResumeLayout(false);
+            this.OpDeVentanas.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PicSalir)).EndInit();
+            this.PnlInstrucciones.ResumeLayout(false);
+            this.PnlInstrucciones.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DGBTabla)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel PnlArriba;
+        private System.Windows.Forms.PictureBox PicLogo;
+        private System.Windows.Forms.Panel OpDeVentanas;
+        private System.Windows.Forms.PictureBox PicSalir;
+        private System.Windows.Forms.Panel PnlInstrucciones;
+        private System.Windows.Forms.Label LblNombre;
+        private System.Windows.Forms.Button BtnCrear;
+        private System.Windows.Forms.Label LblBdd;
+        private System.Windows.Forms.TextBox TbNombreTabla;
+        private System.Windows.Forms.DataGridView DGBTabla;
+        private System.Windows.Forms.CheckBox CkbNullos;
+        private System.Windows.Forms.TextBox TbNombreDato;
+        private System.Windows.Forms.ComboBox CbTipoDato;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.CheckBox CkbAutoIncrementable;
+        private System.Windows.Forms.Button BtnAgregar;
+        private System.Windows.Forms.DataGridViewTextBoxColumn C1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn C2;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn C3;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn C4;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn C5;
+        private System.Windows.Forms.CheckBox CkbPrimaryKey;
+        private System.Windows.Forms.ComboBox CbBdd;
+        private System.Windows.Forms.Button BtnVerTabla;
+    }
+
+Form Tablas/Codigo:
+
+    namespace Gestion_de_BDD
+{
+    public partial class Tablas : Form
+    {
+        public Tablas(DBSqlServer pm)
+        {
+            InitializeComponent();
+            sql = pm;
+
+        }
+        #region
+        //------------------------------------------Esta parte del código se dedica a las acciones de la ventana----------------------------------------------------
+        int mx = 0; int my = 0;
+        private void PnlArriba_MouseMove(object sender, MouseEventArgs e) { if (e.Button != MouseButtons.Left) { mx = e.X; my = e.Y; } else { Left = Left + (e.X - mx); Top = Top + (e.Y - my); } }
+        private void PicSalir_Click(object sender, EventArgs e) { this.Close(); }
+        private void PicMinimizar_Click(object sender, EventArgs e) { this.WindowState = FormWindowState.Minimized; }
+
+        private void TbNombreTabla_MouseClick(object sender, MouseEventArgs e)
+        {
+            TbNombreDato.Enabled = true;
+            CbTipoDato.Enabled = true;
+            CkbNullos.Enabled = true;
+            CkbAutoIncrementable.Enabled = true;
+            CkbPrimaryKey.Enabled = true;
+
+            BtnAgregar.Enabled = true;
+        }
+        #endregion
+
+        List<string> elementos = new List<string>();
+
+        string tnombre = "";
+        string dnombre = "";
+        string tipo = "";
+        bool nulos = false;
+        bool autin = false;
+        bool pk = false;
+
+        string linea = "";
+
+        DBSqlServer sql;
+
+        public void Default()
+        {
+            TbNombreDato.Clear();
+            CbTipoDato.Text = "";
+            CkbNullos.Checked = false;
+            CkbAutoIncrementable.Checked = false;
+            CkbPrimaryKey.Checked = false;
+        }
+
+        private void BtnCrear_Click(object sender, EventArgs e)
+        {
+            if (DGBTabla.RowCount >= 1)
+            {
+                string sentencias = "";
+                int cont = 0;
+                foreach (string a in elementos)
+                {
+                    if (cont == 0)
+                    {
+                        sentencias = a;
+                    }
+                    else
+                    {
+                        sentencias += $", {a}";
+                    }
+                    cont++;
+                }
+
+                try
+                {
+                    if(!sql.Ejecutar($"Create table {tnombre} ( {sentencias} );"))
+                    {
+
+                            MessageBox.Show($"Ha ocurrido un error:\n {sql.sLastError}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    else
+                    {
+                        MessageBox.Show($"La tabla {tnombre} fue creada correctamente");
+                    }
+
+                }
+                catch
+                {
+                    MessageBox.Show($"Ha ocurrido un error:\n {sql.sLastError}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
+                DGBTabla.Rows.Clear();
+            }
+            else
+            {
+                MessageBox.Show($"Por favor agrega al menos una linea a la tabla", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+
+        }
+
+        private void BtnAgregar_Click(object sender, EventArgs e)
+        {
+            if (TbNombreDato.Text != "" && CbTipoDato.Text != "")
+            {
+                tnombre = TbNombreTabla.Text;
+                dnombre = TbNombreDato.Text;
+                tipo = CbTipoDato.Text;
+                nulos = CkbNullos.Checked;
+                autin = CkbAutoIncrementable.Checked;
+                pk = CkbPrimaryKey.Checked;
+
+                linea = $"{dnombre} {tipo}";
+
+                if (autin) { linea += " identity(1,1)"; }
+
+                if (nulos) { linea = $"{dnombre} {tipo}"; } else { linea += " not null"; }
+
+                if (pk) { linea += $", constraint PK_{dnombre} primary key({dnombre})"; }
+
+
+                elementos.Add(linea);
+                DGBTabla.Rows.Add( dnombre, tipo, nulos, autin, pk );
+
+                Default();
+                BtnCrear.Enabled = true;
+            }
+            else
+            {
+                MessageBox.Show($"Por favor llena los requisitos mínimos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void Tablas_Load(object sender, EventArgs e)
+        {
+            
+
+            if (!sql.ConexionAbierta())
+            {
+                sql.AbrirConexion();
+            }
+            
+            DataTable Tabla = sql.VerTodasLasDB();
+            foreach (DataRow r in Tabla.Rows)
+            {
+                CbBdd.Items.Add(r[0]);
+            }
+            sql.CambiarDB(CbBdd.Items[CbBdd.Items.Count - 1].ToString());
+            CbBdd.Text = sql.VerDB();
+
+            DataTable Tipos = sql.VerTipos();
+            foreach (DataRow f in Tipos.Rows)
+            {
+                CbTipoDato.Items.Add(f[0]);
+            }
+
+        }
+
+        private void CbBdd_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                sql.CambiarDB(CbBdd.Text);
+                MessageBox.Show($"Ejecutado correctamente...\n Base de datos en uso: {sql.VerDB()}");
+            }
+            catch
+            {
+                MessageBox.Show($"Ha ocurrido un error:\n {sql.sLastError}","Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                MessageBox.Show($"Base de datos en uso: {sql.VerDB()}");
+            }
+
+        }
+
+
+        //------------------------------------------Cosas innecesarias con las tablas----------------------------------------------------
+
+        private void BtnVerTabla_Click(object sender, EventArgs e)
+        {
+
+            if (TbNombreTabla.Text.Length > 0)
+            {
+                try
+                {
+                    DataTable T1 = new DataTable();
+                    //T1 = sql.VerTabla(CbBdd.Text, TbNombreTabla.Text);
+                    DataTable T2 = new DataTable();
+                    int cont = 0;
+                    foreach (DataColumn c in T1.Columns)
+                    {
+
+                        cont++;
+                    }
+
+                }
+                catch
+                {
+                    MessageBox.Show($"Ha ocurrido un error:\n {sql.sLastError}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+        }
+
+        private void TbNombreTabla_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 13)
+            {
+                BtnVerTabla_Click(sender, e);
+            }
+
+        }
+    }
+}
+
+
+SQL_Conexiones/DDL:
+
+    public class DBSqlServer
+    {
+        SqlConnection conexion = null;
+        public String sLastError = "";
+        public DataTable Tabla = new DataTable();
+
+        public DBSqlServer (String sServer, String sUsuario, String sContraseña)
+        {
+            conexion = new SqlConnection($"Server={sServer}; Database=master; User Id={sUsuario}; Password={sContraseña};");
+        }
+
+        //------------------------------------------------------------------------------------Acciones----------------------------------------------------------------------------------------------
+
+        public Boolean AbrirConexion()
+        {
+            Boolean bAllOk = true;
+            try
+            {
+                conexion.Open();
+            }
+            catch(Exception ex) 
+            {
+                sLastError = ex.Message;
+                bAllOk = false;
+            }
+            return bAllOk;
+        }
+
+        public Boolean ConexionAbierta()
+        {
+            Boolean bAllOk = true;
+            try
+            {
+                bAllOk = conexion.State == System.Data.ConnectionState.Open ? true : false;
+            }
+            catch (Exception ex)
+            {
+                sLastError = ex.Message;
+                bAllOk = false;
+            }
+            return bAllOk;
+        }
+
+        public Boolean Ejecutar(String sCmd)
+        {
+            Boolean bAllOk = true;
+
+            String[] sValida = sCmd.Split(' ');
+
+            try
+            {
+
+                using (SqlCommand Cmd = new SqlCommand(sCmd, conexion))
+                {
+                    Cmd.ExecuteNonQuery();
+                    if (sValida[0] == "select" || sValida[0] == "Select") 
+                    { 
+                        Tabla.Load(Cmd.ExecuteReader()); 
+                    }                    
+                }
+                conexion.Close();
+
+            }
+            catch (Exception ex)
+            {
+                sLastError = ex.Message;
+                bAllOk = false;
+            }
+
+
+            return bAllOk;
+        }
+
+        public DataTable EjecutarTabla(String sCmd)
+        {
+            DataTable Tabla = new DataTable();
+            try
+            {
+
+                using (SqlCommand Cmd = new SqlCommand(sCmd, conexion))
+                {
+                    Cmd.ExecuteNonQuery();
+                    Tabla.Load(Cmd.ExecuteReader());
+                }
+
+            }
+            catch (Exception ex)
+            {
+                sLastError = ex.Message;
+            }
+            return Tabla;
+        }
+
+        public void CerrarConexion()
+        {
+            conexion.Close();
+        }
+
+        public DataTable VerTipos()
+        {
+            DataTable Tabla = new DataTable();
+
+            try
+            {
+                using (SqlCommand Cmd = new SqlCommand("select name from sys.types", conexion))
+                {
+                    Cmd.ExecuteNonQuery();
+                    Tabla.Load(Cmd.ExecuteReader());
+                }
+            }
+            catch (Exception ex)
+            {
+                sLastError = ex.Message;
+            }
+
+            return Tabla;
+        }
+
+
+        //------------------------------------------------------------------------------------Base de datos----------------------------------------------------------------------------------------------
+
+        public string VerDB()
+        {
+            string sDB = conexion.Database;
+            return sDB;
+        }
+
+        public DataTable VerTodasLasDB()
+        {
+            DataTable Tabla = new DataTable();
+
+            try
+            {
+                using (SqlCommand Cmd = new SqlCommand("select name from sys.databases where database_id > 5", conexion))
+                {
+                    Cmd.ExecuteNonQuery();
+                    Tabla.Load(Cmd.ExecuteReader());
+                }
+            }
+            catch(Exception ex)
+            {
+                sLastError = ex.Message;
+            }
+
+            return Tabla;
+        }
+
+        public Boolean CambiarDB(String sNueva)
+        {
+            Boolean bOk = false;
+            try
+            {
+                conexion.ChangeDatabase(sNueva);
+                bOk = true;
+
+            }
+            catch (Exception ex)
+            {
+                sLastError = ex.Message;
+            }
+            return bOk;
+        }
+
+        //------------------------------------------------------------------------------------Tablas----------------------------------------------------------------------------------------------
+
+        public DataTable VerTablas(String sNombreDb)
+        {
+            DataTable Tabla = new DataTable();
+
+            using (SqlCommand Cmd = new SqlCommand($"use {sNombreDb}; Select TABLE_NAME from INFORMATION_SCHEMA.TABLES", conexion))
+            {
+                try
+                {
+                    Cmd.ExecuteNonQuery();
+                    Tabla.Load(Cmd.ExecuteReader());
+                }
+                catch (Exception ex)
+                {
+                    sLastError = ex.Message;
+                }
+                
+            }
+
+            return Tabla;
+        }
+
+        //public String[,] VerLaTabla(String DB, String sNombreTabla)
+        //{
+        //    String[,] Linea = new string[1,1];
+
+        //    DataTable Tabla = new DataTable();
+        //    String[] Lineas = new String[1];
+        //    try
+        //    {
+        //        string Query = $"Use {DB} select " +
+        //            " COLUMN_NAME" +
+        //            ", DATA_TYPE" +
+        //            ", CHARACTER_MAXIMUM_LENGTH" +
+        //            ", NUMERIC_PRECISION" +
+        //            ", NUMERIC_SCALE" +
+        //            ", IS_NULLABLE " +
+        //            $"from INFORMATION_SCHEMA.COLUMNS where TABLE_NAME = '{sNombreTabla}'";
+
+        //        using (SqlCommand Cmd = new SqlCommand(Query, conexion))
+        //        {
+        //            Cmd.ExecuteNonQuery();
+        //            Tabla.Load(Cmd.ExecuteReader());
+        //        }
+        //        Lineas = new String[Tabla.Rows.Count];
+
+        //        String[] Drow = VerKeys(DB, sNombreTabla);
+        //        String[] Drow2;
+
+        //        int Cont = 0;
+        //        Boolean EsPk = false;
+        //        foreach (DataRow Dr in Tabla.Rows)
+        //        {
+        //            foreach (string s in Drow)
+        //            {
+        //                Drow2 = (s.Split('_'));
+        //                if (Drow2[1].ToString() == Dr[0].ToString())
+        //                {
+        //                    Lineas[Cont] = Drow2[0] + $" {Dr[0]} ({Drow2[0]}, {Dr[1]}";
+        //                    EsPk = true;
+        //                    break;
+        //                }
+        //            }                    
+
+        //            Linea[Cont, 0] = Dr[0].ToString();
+        //            Linea[Cont, 1] = Dr[1].ToString();
+        //            if (Dr[3].ToString() != "" && (Dr[4].ToString() != "" && Dr[4].ToString() != "0")) { Linea[Cont,1] += $"({Dr[3]},{Dr[4]})"; }
+        //            else { Linea[Cont, 1] += $"({Dr[1]})"; }
+        //            if (Dr[5].ToString() == "NO") { Linea[Cont,2] += "false"; } else { Lineas[Cont] += "true"; }
+                    
+        //            if (EsPk == false) { }
+
+        //            Cont++;
+        //            EsPk = false;
+        //        }
+
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        sLastError = ex.Message;
+        //    }
+
+        //    return Linea;
+        ////}
+
+        public String[] VerElementos(String DB, String sNombreTabla)
+        {
+            DataTable Tabla = new DataTable();
+            String[] Lineas = new String[1];
+            try
+            {
+                string Query = $"Use {DB} select "+
+                    " COLUMN_NAME" +
+                    ", DATA_TYPE"+
+                    ", CHARACTER_MAXIMUM_LENGTH" +
+                    ", NUMERIC_PRECISION" +
+                    ", NUMERIC_SCALE" +
+                    ", IS_NULLABLE " +
+                    $"from INFORMATION_SCHEMA.COLUMNS where TABLE_NAME = '{sNombreTabla}'";
+
+                using (SqlCommand Cmd = new SqlCommand(Query, conexion))
+                {
+                    Cmd.ExecuteNonQuery();
+                    Tabla.Load(Cmd.ExecuteReader());
+                }
+                Lineas = new String[Tabla.Rows.Count];
+
+                String[] Drow = VerKeys(DB, sNombreTabla);
+                String[] Drow2;
+
+                int Cont = 0;
+                Boolean EsPk = false;
+                foreach (DataRow Dr in Tabla.Rows)
+                {
+                    foreach(string s in Drow)
+                    {
+                        Drow2 = (s.Split('_'));
+                        if (Drow2[1].ToString() == Dr[0].ToString())
+                        {
+                            Lineas[Cont] = Drow2[0] + $" {Dr[0]} ({Drow2[0]}, {Dr[1]}";
+                            EsPk = true;
+                            break;
+                        }
+                    }
+
+                    if (EsPk == false) { Lineas[Cont] += $"{Dr[0]} ({Dr[1]}"; }
+                    if (Dr[2].ToString() != "") { Lineas[Cont] += $"({Dr[2]})"; }
+
+                    if (Dr[3].ToString() != "" && (Dr[4].ToString() != "" && Dr[4].ToString() != "0")) { Lineas[Cont] += $"({Dr[3]},{Dr[4]})"; }
+
+                    if (Dr[5].ToString() == "NO") { Lineas[Cont] += ", not null"; } else { Lineas[Cont] += ", null"; }
+                    Lineas[Cont] += ")";
+
+                    Cont++;
+                    EsPk = false;
+                }
+
+            }
+            catch (Exception ex)
+            {
+                sLastError = ex.Message;
+            }
+
+            return Lineas;
+        }
+
+        public String[] VerKeys(String DB, String sNombreTabla)
+        {
+            DataTable Tabla = new DataTable();
+            String[] Lipe = new string[0];
+
+            try
+            {
+                string Query = $"Use {DB} select " +
+                    " CONSTRAINT_NAME " +
+                    $" from INFORMATION_SCHEMA.KEY_COLUMN_USAGE  where TABLE_NAME = '{sNombreTabla}'";
+
+                using (SqlCommand Cmd = new SqlCommand(Query, conexion))
+                {
+                    Cmd.ExecuteNonQuery();
+                    Tabla.Load(Cmd.ExecuteReader());
+                }
+                Lipe = new string[Tabla.Rows.Count];
+
+                int Cont = 0;
+                foreach (DataRow Der in Tabla.Rows)
+                {
+                    Lipe[Cont] = Der[0].ToString();
+
+                    Cont++;
+                }
+
+            }
+            catch (Exception ex)
+            {
+                sLastError = ex.Message;
+            }
+
+            return Lipe;
+        }
+
+        public DataTable VerConstrains(String DB, String sNombreTabla)
+        {
+            DataTable Tabla = new DataTable();
+
+            try
+            {
+                string Query = $"Use {DB} select "+
+                    " COLUMN_NAME" +
+                    ", CONSTRAINT_NAME " +
+                    $" from INFORMATION_SCHEMA.CONSTRAINT_COLUMN_USAGE  where TABLE_NAME = '{sNombreTabla}'";
+
+                using (SqlCommand Cmd = new SqlCommand(Query, conexion))
+                {
+                    Cmd.ExecuteNonQuery();
+                    Tabla.Load(Cmd.ExecuteReader());
+                }
+            }
+            catch (Exception ex)
+            {
+                sLastError = ex.Message;
+            }
+
+            return Tabla;
+        }
+
+
+    }
